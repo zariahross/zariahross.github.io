@@ -3,10 +3,10 @@
     <head>
                 <style>
             body {
-                background: azure;
+                background: powderblue;
                 color: black;
                 padding: 10px;
-                font-family: arial;
+                font-family: rockwell, serif;
             }
             header {
                 font-size: 1.5em;
@@ -23,13 +23,14 @@
                 margin: 0 auto;
                 display: flex;
                 padding: 10px;
+                border-radius: 10px;
             }
             nav header {
                 display: flex;
                 align-items: center;
                 color: rgb(255, 255, 255);
                 flex: 1;
-            }
+                 }
             nav ul {
                 list-style-image: none;
             }
@@ -40,12 +41,16 @@
             nav a {
                 text-decoration: none;
                 color: #fff;
+                
             }
+            
 
             /* main container area beneath menu */
+            
             main {
-                background: rgb(245, 238, 219);
+                background: seashell;
                 display: flex;
+                
             }
             [class=sidebar] {
                 margin-right: 25px;
@@ -61,11 +66,15 @@
             [class=interests] header {
                 font-size: 1.25em;
             }
+            [id=main-content]{
+                padding: 10px;
+            }
         </style>
         <title>Zariah's First Website</title>
     </head>
     <body>
          <div id="all-contents"> 
+        
             <nav>
                 <h1> Zariah's First Website </h1>
                 <ul>
@@ -73,6 +82,7 @@
                     <li><a href="portfolio.html">Portfolio</a></li>
                 </ul>
             </nav>
+        <div id="main-content">
 
             <main>
                  <div class="sidebar">
@@ -91,7 +101,8 @@
                         </ul>
                     </section>
                 </div>
-            </main>
+             </main>
+             </div>
         </div>
     </body>
 </html>
